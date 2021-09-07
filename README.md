@@ -1,1 +1,0 @@
-https://valaary.github.io/rsschool-cv/cv
