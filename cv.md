@@ -10,6 +10,7 @@
 Hello, I'm Valeriia Gryzlova
 I want to help people realize their creative ideas.
 I use a creative approach to problem solve. I have good soft and hard skills, am an excellent team worker and very willing to learn and develop new skills.
+> If you have a project I can Help with, please get in touch
 
 ## Skills and Proficiency:
 * HTML5, CSS
@@ -21,10 +22,11 @@ I use a creative approach to problem solve. I have good soft and hard skills, am
 ## Code Example:
 ```function even_or_odd(number) {  
     let result = number % 2;  
-  if (result == 0) {  
+    if (result == 0) {  
     send = "Even"  
   } else send = "Odd"  
-      return send;  
+  
+  return send;  
 };
 ```
 
@@ -37,5 +39,3 @@ __Expected Graduation:__ 2022
 * Russian Native
 * English - Intermediate/Upper-intermediate 
 * Finnish - Basic
-
-> If you have a project I can Help with, please get in touch
