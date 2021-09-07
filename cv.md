@@ -19,12 +19,12 @@ I use a creative approach to problem solve. I have good soft and hard skills, am
 * Illustrator, Figma
 
 ## Code Example:
-```function even_or_odd(number) {
-    let result = number % 2;
-  if (result == 0) {
-    send = "Even"
-  } else send = "Odd"
-      return send;
+```function even_or_odd(number) {  
+    let result = number % 2;  
+  if (result == 0) {  
+    send = "Even"  
+  } else send = "Odd"  
+      return send;  
 };
 ```
 
