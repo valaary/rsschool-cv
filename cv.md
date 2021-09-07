@@ -21,7 +21,8 @@ I use a creative approach to problem solve. I have good soft and hard skills, am
 * Illustrator, Figma
 
 ## Code Example:
-```function even_or_odd(number) {  
+```javascript
+function even_or_odd(number) {  
     let result = number % 2;  
     if (result == 0) {  
     send = "Even"  
@@ -30,6 +31,7 @@ I use a creative approach to problem solve. I have good soft and hard skills, am
   return send;  
 };
 ```
+
 
 ## Education: 
 __Majoring in Information systems and technologies__
