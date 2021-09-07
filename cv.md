@@ -10,7 +10,8 @@
 Hello, I'm Valeriia Gryzlova
 I want to help people realize their creative ideas.
 I use a creative approach to problem solve. I have good soft and hard skills, am an excellent team worker and very willing to learn and develop new skills.
-> If you have a project I can Help with, please get in touch
+
+>If you have a project I can Help with, please get in touch
 
 ## Skills and Proficiency:
 * HTML5, CSS
