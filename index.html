@@ -3,101 +3,135 @@
 
 <head>
     <meta charset="utf-8">
+    <title>rs-school-cv</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 
 <body>
     <div class="wrapper">
-        <header>
-            <h1></h1>
-            <h4></h4>
-            <i class="link icon-phone"></i>
-        </header>
-        <div class="columns">
-            <div class="left-column">
-                <main>
-                    <section class="contact">
-                        <ul>
-                            <li>
-                                <i class="link _icon-phone"></i>
-                                <ul>
-                                    <li>Phone</li>
-                                    <li>+7(900)918-36-1</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul>
-                                    <li>Email</li>
-                                    <li>vallvolf@yandex.ru</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul>
-                                    <li>Telegram</li>
-                                    <li>@valaary</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul>
-                                    <li>Location</li>
-                                    <li>Saint-Petersburg, Russia</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </section>
-                    <section class="skills">
-                        <ul>
-                            <li>HTML5, CSS</li>
-                            <li>JavaScript</li>
-                            <li>React</li>
-                            <li>Git, GitHub</li>
-                            <li>Illustrator, Figma</li>
-                        </ul>
-                    </section>
-                    <section class="languages">
-                        <ul>
-                            <li>Russian</li>
-                            <li>English</li>
-                            <li>Finnish</li>
-                        </ul>
-                    </section>
-                    <section class="hobbies"></section>
-                </main>
-            </div>
-            <div class="right-column">
-                <aside>
-                    <section class="about-myself">
-                        <h2>About me</h2>
-                        <p></p>
-                    </section>
-                    <section class="education">
-                        <h2>Education</h2>
-                        <section class="degree">
+        <div class="container">
+            <main>
+                <div class="image-container">
+                    <img class="my-photo" src="/images/my-photo.jpg" alt="my-photo">
+                </div>
+                <section class="contact">
+                    <ul>
+                        <li>
+                            <img src="/images/phone.svg" alt="icon-phone">
+                            <h5>Phone</h5>
+                        </li>
+                        <li>+7(900)918-36-1</li>
+                        <li>
+                            <img src="/images/email.svg" alt="icon-email">
+                            <h5>Email</h5>
+                        </li>
+                        <li>vallvolf@yandex.ru</li>
+                        <li>
+                            <img src="/images/telegram.svg" alt="icon-telegram">
+                            <h5>Telegram</h5>
+                        </li>
+                        <li>@valaary</li>
+                        <li>
+                            <img src="/images/location.svg" alt="icon-location">
+                            <h5>Location</h5>
+                        </li>
+                        <li>Saint-Petersburg, Russia</li>
+
+                    </ul>
+                </section>
+                <section class="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML5, CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Git, GitHub</li>
+                        <li>Illustrator, Figma</li>
+                    </ul>
+                </section>
+                <section class="languages">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>Russian (native)</li>
+                        <li>English (B2)</li>
+                        <li>Finnish (A1)</li>
+                    </ul>
+                </section>
+            </main>
+            <aside>
+                <header class="header">
+                    <h1>
+                        <span class="name">Valeriia</span> Gryzlova
+                    </h1>
+                    <h4>Frontend developer</h4>
+                </header>
+                <section class="about-myself">
+                    <h2>About me</h2>
+                    <p>Hello, I’m Valeriia Gryzlova I want to help people realize their creative ideas. I use a
+                        creative approach to problem solve. I have good soft and hard skills, am an excellent
+                        team
+                        worker and very willing to learn and develop new skills.</p>
+                </section>
+                <section class="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>
                             <h3>Information Technology</h3>
                             <h5>St. Petersburg State University of Telecommunications</h5>
-                            <p></p>
-                        </section>
-                        <section class="rs-school">
+                            <p>Gradueded: 2022</p>
+                        </li>
+                        <li>
                             <h3>RS Schools «JavaScript/Front-end»</h3>
                             <h5>Online course</h5>
-                            <p></p>
-                        </section>
-                        <section class="online-course">
+                            <p>2021-2022</p>
+                        </li>
+                        <li>
                             <h3>HTML and CSS Tutorials on w3schools</h3>
                             <h5>Online tutorials</h5>
-                            <p></p>
-                        </section>
+                            <p>2021</p>
+                        </li>
+                    </ul>
+                </section>
 
-                    </section>
-                    <section class="code-example">
-                        <h2>Code Example</h2>
-                        <p></p>
-                    </section>
-                </aside>
-            </div>
+                </section>
+                <section class="code-example">
+                    <h2>Code Example</h2>
+                    <pre>
+                                    <code class="javascript">
+    const quarterOf = (month) => {
+        if (month >=1 && month <= 3) {
+            return 1
+        } else if (month >= 4 && month <=6 ) {
+            return 2
+        } else if (month >= 7 && month <=9 ) {
+            return 3
+        } else if (month >= 10 && month <=12 ) {
+            return 4
+        }
+    }
+                                        </code>
+                                    </pre>
+                </section>
+            </aside>
         </div>
-        <footer></footer>
+        <footer>
+            <a class="git-hub-link" href="https://github.com/valaary"><img src="/images/github.png" alt="github"></a>
+            <p>© 2021</p>
+            <a class="rs-school" href="https://rs.school/js/"><img src="/images/rs_school_js.svg" alt="rs-school-logo"
+                    width="73" height="26"></a>
+        </footer>
+
 
     </div>
 

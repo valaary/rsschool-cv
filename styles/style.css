@@ -1,0 +1,143 @@
+
+.wrapper {
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+}
+
+main {
+    width: 30%;
+    /* display: flex;
+    flex-direction: column; */
+
+    background-color: #ef8354;
+}
+
+aside {
+    width: 70%;
+}
+
+footer {
+    background-color: #343633;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.image-container {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 50px 64px 35px 57px;
+}
+
+.my-photo {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+}
+
+/* .columns {
+    display: flex;
+    justify-items: center;
+} */
+
+
+.about-myself,
+.education,
+.code-example {
+    margin: 25px 36px;
+}
+
+.contact, 
+.skills, 
+.languages,
+.hobbies {
+    margin-bottom: 30px;
+}
+
+h1, 
+h2,
+h4 {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.15em;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 25px;
+    color: #242732;
+    text-transform: uppercase;
+    border: 2px solid #333333;
+    padding: 13px 8px;
+    margin: 62px 37px 41px 64px;
+
+
+}
+
+.name {
+    font-weight: bold;
+}
+
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-bottom: 24px;
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+    color: #999999;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 14px;
+    color: #333333;
+    position: absolute;
+    margin: -50px 107px 0 135px ;
+    padding: 3px;
+    background-color: #FFFFFF;
+}
+
+main ul {
+    margin-left: 39px;
+}
+
+main h2 {
+    margin-left: 39px;
+}
+
+li {
+    margin-bottom: 13px ;
+}
+
+.contact h5 {
+    display: inline;
+    font-weight: bold;
+}
+
+p {
+    margin: 6px 0 0 0;
+}
+
+.education h5{
+    margin: 6px 0;
+}
+
